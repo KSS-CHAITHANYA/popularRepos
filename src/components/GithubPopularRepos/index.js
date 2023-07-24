@@ -38,10 +38,8 @@ class GithubPopularRepos extends Component {
     console.log(languageFilter)
     const apiUrl = `https://apis.ccbp.in/popular-repos?language=${languageFilter}`
     console.log(apiUrl)
-    const options = {
-      method: 'GET',
-    }
-    const response = await fetch(apiUrl, options)
+    
+    const response = await fetch(apiUrl)
     console.log(response)
 
     if (response.ok === true) {
