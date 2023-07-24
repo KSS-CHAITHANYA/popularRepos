@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.popular-heading {
+  font-family: 'Lobster';
+}
+
+.language-list-container {
+  display: flex;
+}
+
+.repo-unordered-list {
+  display: flex;
+  flex-wrap: wrap;
+}

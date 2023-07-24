@@ -1,0 +1,19 @@
+.repo-item-container {
+  background-color: #f8f8ff;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 8px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.repo-url-image {
+  height: 35px;
+}
+
+.count-image {
+  height: 10px;
+}

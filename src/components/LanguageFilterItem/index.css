@@ -1,0 +1,13 @@
+.language-list {
+  list-style-type: none;
+  margin-top: 55px;
+  margin-right: 75px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
